@@ -1,0 +1,158 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu";
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( 45deg, #4ebffe 0%, #378fd9 100%);
+    padding-top: 75px ;
+    padding-bottom: 75px;
+}
+
+.logo-container a {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-image: url("../img/logo\ (1).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-container {
+    max-width: 1171px;
+}
+
+.header-content {
+    padding-top: 20px;
+    display: flex; 
+    width: 100%;
+}
+
+.header-column {
+    width: 50%;
+    color: #fff;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h1 .h1-span {
+    margin: 10px 0;
+    font-size: 45px;
+    display: inline-block;
+}
+
+.header-subtitle p {
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    width: 69%;
+    line-height: 27px;
+    margin: 0;
+}
+.header-subtitle{
+    margin-bottom: 45px;
+}
+.header-button a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: #000;
+    background: #ffd429;
+    font-family: "Montserrat";
+    font-weight: 900;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+section {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    padding: 90px;
+    box-sizing: border-box;
+}
+
+.section-content {
+    width: 1171px;
+    text-align:center;
+}
+
+.section-title {
+    margin-bottom: 55px;
+}
+
+.card-container {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card-item {
+    width: 25%;
+}
+#form-section {
+    background-color: #ecf2f8;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+} 
+
+label {
+    display: flex;
+}
+
+input {
+    padding: 10px 20px;
+    margin: 10px 0;
+    flex: 1;
+    border: none;
+}
+
+button {
+    font-size: 15px;
+    padding: 15px 30px;
+    color: #000;
+    background: #ffd429;
+    font-family: "Montserrat";
+    font-weight: 900;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #164d7a;
+    padding: 75px;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    width: 1171px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
